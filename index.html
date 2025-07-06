@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Harsh Bio Data</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="copyAlert" class="copy-alert">Number copied!</div>
+    <div class="container">
+        <div class="toggle-group">
+            <button class="toggle-btn active" id="englishBtn">English</button>
+            <button class="toggle-btn" id="hindiBtn">हिन्दी</button>
+        </div>
+    </div>
+
+    <div class="profile-card">
+        <img src="harsh_pandey_image.jpg" alt="Harsh Pandey" class="avatar">
+        <p class="my-name" id="my_name_langugae">Harsh Pandey</p>
+        <p class="designation" id="my_name_designation">Software Engineer</p>
+        
+        <div class="contact-card">
+            <div class="contact-grid">
+                <a href="https://www.linkedin.com/in/harshpandey2161/" target="_blank" class="contact-btn"><i class="fab fa-linkedin-in"></i><span id = "linkedin_language">LinkedIn</span></a>
+                <a href="https://www.instagram.com/eescapewithme_/" target="_blank" class="contact-btn"><i class="fab fa-instagram"></i><span id = "instagram_language">Instagram</span></a>
+                <a href="https://www.facebook.com/Harshpandey2161" target="_blank" class="contact-btn"><i class="fab fa-facebook-f"></i><span id = "facebook_language">Facebook</span></a>
+                <a href="tel:+917891676144" target="_blank" class="contact-btn"><i class="fas fa-phone"></i><span id = "call_language">Phone</span></a>
+                <a href="https://wa.me/917891676144" target="_blank" class="contact-btn"><i class="fab fa-whatsapp"></i><span id = "whatsapp_language">WhatsApp</span></a>
+                <a href="mailto:harshpandey9079@gmail.com" target="_blank" class="contact-btn"><i class="fas fa-envelope"></i><span id = "email_language">Email</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-details">
+        <div class="contact-details-header" id = "profession_language"><b>Profession</b></div>
+        <hr>
+        <div class="section">
+            <h4 id = "job_occupdation_language">Job / Ocuupation</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-briefcase my-custom-icon-size"></i></div>
+            <div class="info-text">
+                <p id="designation_language">Software Engineer</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "company_language">Company</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-building my-custom-icon-size"></i></div>
+            <p id = "company_name_language">Azuga (Bridgestone Company)</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "income_language">Income</h4>
+            <div class="info-link">
+            <div class="icon-circle"><i class="fas fa-wallet my-custom-icon-hometown"></i></div>
+            <p id = "income_value_language">Job: 17 LPA + Family Business Income Extra</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "work_link_language">Work Detailed Profile</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fab fa-linkedin-in my-custom-icon-size"></i></div>
+                <a href="https://www.linkedin.com/in/harshpandey2161/" target="_blank"><span>harshpandey2161 <i class="fas fa-arrow-up-right-from-square"></i></span></a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="contact-details">
+        <div class="contact-details-header" id = "profile_language"><b>Profile</b></div>
+        <hr>
+        <div class="section">
+            <h4 id = "dob_language">Date Of Birth</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-baby my-custom-icon-size"></i></div>
+            <div class="info-text">
+                <p id = "dob_value_language">23 October 2001</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "height_language">Height</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-person-walking my-custom-icon-size"></i></div>
+            <p id = "height_value_language">5 Feet 8 Inch</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "phone_whatsapp_language">Phone & WhatsApp</h4>
+            <div class="info-line  space-between">
+                <div class="info-left">
+                    <div class="icon-circle"><i class="fas fa-phone my-custom-icon-size"></i></div>
+                    <div class="info-text">
+                        <p id="phone_whatsapp_value_language">7891676144</p>
+                    </div>
+                </div>
+                <button class="copy-btn" onclick="copyToClipboard('phone_whatsapp_value_language')">
+                    <i class="fas fa-copy"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "caste_language">Caste</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fa-solid fa-om my-custom-icon-size"></i></div>
+            <p id = "caste_value_language">Hindu - Brahmin Adi Gor</p>
+            </div>
+            <small id = "caste_message_language">*Caste Doesn't matter to me, open for other castes as well</small>
+        </div>
+
+        <div class="section">
+            <h4 id = "home_town_language">Home Town / Place Of Birth</h4>
+            <div class="info-link">
+            <div class="icon-circle"><i class="fas fa-house my-custom-icon-hometown"></i></div>
+            <p id = "home_town_value_language">Jaipur , Rajasthan - India</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "social_profile_language">Social Profile</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fab fa-instagram my-custom-icon-size"></i></div>
+                <a href="https://www.instagram.com/eescapewithme_/" target="_blank"><span>eescapewithme_<i class="fas fa-arrow-up-right-from-square"></i></span></a>
+            </div>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fab fa-facebook-f my-custom-icon-size"></i></div>
+                <a href="https://www.facebook.com/Harshpandey2161" target="_blank"><span>Harshpandey2161 <i class="fas fa-arrow-up-right-from-square"></i></span></a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="contact-details">
+        <div class="contact-details-header" id = "education_language"><b>Education</b></div>
+        <hr>
+        <div class="section">
+            <h4 id = "university_course_language">B.Tech Computer Science & Engineering</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-graduation-cap my-custom-icon-size"></i></div>
+            <div class="info-text">
+                <p id = "university_name_language">Lovely Professional University</p>
+                <small id = "university_year_language">2019 - 2023</small>
+            </div>
+        </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "school_12_language">CLASS XII</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-school my-custom-icon-size"></i></div>
+            <div class="info-text">
+                <p id = "school_12_name_language">MPS International</p>
+                <small id = "school_12_year_language">2018 - 2019</small>
+            </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "school_10_language">CLASS X</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-school my-custom-icon-size"></i></div>
+            <div class="info-text">
+                <p id = "school_10_name_language">MPS International</p>
+                <small id = "school_10_year_language">2016 - 2017</small>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="contact-details">
+        <div class="contact-details-header" id = "father_profile_language"><b>Father Profile</b></div>
+        <hr>
+        <div class="section">
+            <h4 id = "father_name_language">Name</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-user my-custom-icon-size"></i></div>
+            <div class="info-text">
+                <p id = "father_name_value_language">Rajesh Pandey</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "father_gotra_language">Gotra</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-sitemap my-custom-icon-size"></i></div>
+            <div class="info-text">
+                <p id = "father_gotra_value_language">Mandajra</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "father_phone_language">Phone & WhatsApp</h4>
+            <div class="info-line  space-between">
+                <div class="info-left">
+                    <div class="icon-circle"><i class="fas fa-phone my-custom-icon-size"></i></div>
+                    <div class="info-text">
+                        <p id="father_phone_value_language">9413963203</p>
+                    </div>
+                </div>
+                <button class="copy-btn" onclick="copyToClipboard('father_phone_value_language')">
+                    <i class="fas fa-copy"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-details">
+        <div class="contact-details-header" id = "mother_profile_language"><b>Mother Profile</b></div>
+        <hr>
+        <div class="section">
+            <h4 id = "mother_name_language">Name</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-user my-custom-icon-size"></i></div>
+            <div class="info-text">
+                <p id = "mother_name_value_language">Laxmi Pandey</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="section">
+            <h4 id = "mother_gotra_language">Gotra</h4>
+            <div class="info-line">
+            <div class="icon-circle"><i class="fas fa-sitemap my-custom-icon-size"></i></div>
+            <div class="info-text">
+                <p id = "mother_gotra_value_language">Gubane</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
